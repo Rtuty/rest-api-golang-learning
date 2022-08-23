@@ -7,6 +7,7 @@ import (
 	"log"
 )
 
+// чтобы подключиться к postgres требуется ввести: psql -U postgres -h localhost -W
 var (
 	configPath string
 )

@@ -1,0 +1,4 @@
+make: Entering directory 'c:/Users/kirill/Desktop/rest-api-golang-learning'
+go build -v ./cmd/apiserver
+make: Leaving directory 'c:/Users/kirill/Desktop/rest-api-golang-learning'
+ 
