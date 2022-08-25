@@ -8,10 +8,12 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Tue Aug 23 15:17:15 2022
+# Make data base, printed on Thu Aug 25 16:10:39 2022
 
 # Variables
 
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
 # environment
 SYSTEMDRIVE = C:
 # environment
@@ -39,7 +41,9 @@ GOPATH = C:\Users\kirill\go
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_48112_YCUQTCVIQHJOWGUY
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_18196_XCWRCGGGODIOMAPR
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
@@ -89,7 +93,7 @@ MAKEFILE_LIST := Makefile
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 48112
+VSCODE_PID = 18196
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # automatic
@@ -217,7 +221,7 @@ DOCKER_CERT_PATH = C:\Users\kirill\.docker\machine\machines\default
 # environment
 PROCESSOR_IDENTIFIER = AMD64 Family 23 Model 24 Stepping 1, AuthenticAMD
 # variable set hash-table stats:
-# Load=102/1024=10%, Rehash=0, Collisions=9/130=7%
+# Load=104/1024=10%, Rehash=0, Collisions=10/132=8%
 
 # Pattern-specific Variable Values
 
@@ -290,6 +294,6 @@ test:
 # strcache performance: lookups = 30 / hit rate = 36%
 # hash-table stats:
 # Load=19/8192=0%, Rehash=0, Collisions=0/30=0%
-# Finished Make data base on Tue Aug 23 15:17:15 2022
+# Finished Make data base on Thu Aug 25 16:10:39 2022
 
  

@@ -1,3 +1,4 @@
+make.exe --dry-run --always-make --keep-going --print-directory
 make: Entering directory 'c:/Users/kirill/Desktop/rest-api-golang-learning'
 go build -v ./cmd/apiserver
 make: Leaving directory 'c:/Users/kirill/Desktop/rest-api-golang-learning'
